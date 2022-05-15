@@ -6,7 +6,7 @@ return require('packer').startup(function()
     use {'wbthomason/packer.nvim'}
 
     use {
-        'neovim/nvim-lspconfig',
+        'neovim/nvim-lspconfig', -- en windows no funcionaba y lo arregle con esto: npm i -g typescript typescript-language-server
         'williamboman/nvim-lsp-installer',
         'hdrdevs/vim-javascript',
         'glepnir/dashboard-nvim',

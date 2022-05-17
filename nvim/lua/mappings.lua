@@ -10,6 +10,7 @@ Mapear('n', '<F2>', ':bprevious!<cr>')
 Mapear('n', '<F3>', ':bnext!<cr>')
 Mapear('n', '<F4>', ':bdelete!<cr>')
 Mapear('n', '<F5>', ':Telescope find_files<cr>')
+Mapear('n', '<F8>', ':Telescope live_grep<cr>')
 
 Mapear('i', '<C-h>', '<Left>')
 Mapear('i', '<C-j>', '<Down>')
